@@ -1,0 +1,47 @@
+.cabecalho {
+    background-color: #222222;
+}
+.cabecalho-titulo {
+    text-align: center;
+    color: #ffffff;
+    height: 5vh;
+    font-size: 5vh;
+    padding: 5vh;
+    font-family: 'Sigmar One', cursive;
+}
+.principal {
+    background-color: #dddddd;
+    height: 85vh;
+}
+.senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+}
+.senha-etiqueta {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vh;
+    font-family: 'Press Start 2P', cursive;
+}
+.senha-entrada {
+    width: 24vh;
+    height: 4vh;
+    font-size: 3vh;
+    margin-top: 2vh;
+    border-radius: .5rem;
+}
+.senha-enviar {
+    margin-top: 2vh;
+    font-size: 2vh;
+    border-radius: 5rem;
+    padding: .5rem;
+    background-color: #880000;
+    font-weight: bold;
+}
+.senha-enviar:hover {
+    background-color: #aa0000;
+    cursor: pointer;
+}
